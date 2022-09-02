@@ -6,7 +6,7 @@ const getAll=async(req,res)=>{
 
     res.status(200).json({
       
-      data:list
+      data:list,
     })
   } catch (error) {
     console.log(error.message)
